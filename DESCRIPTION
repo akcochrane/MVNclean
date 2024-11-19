@@ -1,0 +1,11 @@
+Package: MVNclean
+Title: Utilities for cleaning data
+Version: 2024.11.17.1
+Authors@R: 
+    person("Aaron", "Cochrane", , "aaron_cochrane@brown.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: When data is taken to be sufficiently multivariate normal for various standard analyses, excess skew or outliers may still introduce noise or bias into those analyses. This package includes several functions to clean putatively multivariate normal data, including univariate de-skewing, robust univariate winsorization, and robust multivariate winsorization. The full pipeline is implemented using the function MVNclean.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
